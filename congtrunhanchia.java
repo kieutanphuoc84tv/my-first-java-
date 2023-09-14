@@ -24,7 +24,7 @@ public class congtrunhanchiamadekieutanphuoc{
         // Thực hiện phép toán
         switch (choice) {
             case 1:
-                System.out.println("Tong cua hai so la: " + (a + b));
+                System.out.println("Cong cua hai so la: " + (a + b));
                 break;
              case 2:
                  System.out.println("Tru cua hai so la: " + (a - b));
