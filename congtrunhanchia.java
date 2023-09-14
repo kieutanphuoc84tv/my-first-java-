@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class congtrunhanchia{
+public class congtrunhanchiamadekieutanphuoc{
 
     public static void main(String[] args) {
         // Nhập vào hai số nguyên
@@ -11,7 +11,7 @@ public class congtrunhanchia{
            int b = scanner.nextInt();
 
         // Hiển thị ra màn hình các lựa chọn
-        System.out.println("Chon mot trong phep ton sau:");
+        System.out.println("Chon phep toan ban muon tinh:");
         System.out.println("1.Cong");
           System.out.println("2. Tru");
              System.out.println("3. Nhan");
@@ -24,10 +24,10 @@ public class congtrunhanchia{
         // Thực hiện phép toán
         switch (choice) {
             case 1:
-                System.out.println("Ton cua hai so la: " + (a + b));
+                System.out.println("Tong cua hai so la: " + (a + b));
                 break;
              case 2:
-                 System.out.println("Hieu cua hai so la: " + (a - b));
+                 System.out.println("Tru cua hai so la: " + (a - b));
                  break;
                   case 3:
                     System.out.println("Tich cua hai so la: " + (a * b));
@@ -45,3 +45,50 @@ public class congtrunhanchia{
     }
 }
 //kieutanphuoc//
+//dont copy pls because too much lỗi bruh bruh:))//
+
+//bí mật nằm ở dưới//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//tui bik thế nào mấy og cũng copy của tui à thoai kéo lên lại đi xem chi cho tốn mấy giây:))))))///
+//và tui đã bỏ ra từ 2h cho đến 9h để fix lại cái này ngồi muón lòi trĩ và vâng hận java thiek sự:))//
