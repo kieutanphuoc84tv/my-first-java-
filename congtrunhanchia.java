@@ -40,7 +40,7 @@ public class congtrunhanchia{
                 }
                 break;
             default:
-                System.out.println("Lựa chọn không hợp lệ");
+                System.out.println("Lua chon ko hop le!");
         }
     }
 }
