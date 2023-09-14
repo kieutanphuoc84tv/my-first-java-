@@ -4,18 +4,18 @@ public class congtrunhanchiamadekieutanphuoc{
 
     public static void main(String[] args) {
         // Nhập vào hai số nguyên
-        Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap vao so nguyen lon nhat:");
-         int a = scanner.nextInt();
-           System.out.println("Nhap vao so nguyen thu hai:");
-           int b = scanner.nextInt();
+           int a = scanner.nextInt();
+          System.out.println("Nhap vao so nguyen thu hai:");
+            int b = scanner.nextInt();
 
         // Hiển thị ra màn hình các lựa chọn
-        System.out.println("Chon phep toan ban muon tinh:");
+          System.out.println("Chon phep toan ban muon tinh:");
         System.out.println("1.Cong");
           System.out.println("2. Tru");
-             System.out.println("3. Nhan");
-                   System.out.println("4. Chia");
+         System.out.println("3. Nhan");
+                  System.out.println("4. Chia");
 
         // Lấy lựa chọn của người dùng
         System.out.println("Nhap vao lua chon cua ban:");
@@ -91,4 +91,4 @@ public class congtrunhanchiamadekieutanphuoc{
 
 
 //tui bik thế nào mấy og cũng copy của tui à thoai kéo lên lại đi xem chi cho tốn mấy giây:))))))///
-//và tui đã bỏ ra từ 2h cho đến 9h để fix lại cái này ngồi muón lòi trĩ và vâng hận java thiek sự:))//
+//và tui đã bỏ ra từ 2h cho đến 9h để fix lại cái này vì thiếu in hoa với viết nhanh nên lâu ngồi muón lòi trĩ và vâng hận java thiek sự:))//
