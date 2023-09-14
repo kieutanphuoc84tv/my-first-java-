@@ -6,9 +6,9 @@ public class congtrunhanchia{
         // Nhập vào hai số nguyên
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap vao so nguyen lon nhat:");
-        int a = scanner.nextInt();
-        System.out.println("Nhap vao so nguyen thu hai:");
-        int b = scanner.nextInt();
+         int a = scanner.nextInt();
+           System.out.println("Nhap vao so nguyen thu hai:");
+           int b = scanner.nextInt();
 
         // Hiển thị ra màn hình các lựa chọn
         System.out.println("Chon mot trong phep ton sau:");
@@ -26,15 +26,15 @@ public class congtrunhanchia{
             case 1:
                 System.out.println("Ton cua hai so la: " + (a + b));
                 break;
-            case 2:
-                System.out.println("Hieu cua hai so la: " + (a - b));
-                break;
-            case 3:
-                System.out.println("Tich cua hai so la: " + (a * b));
-                break;
-            case 4:
-                if (b == 0) {
-                    System.out.println("Khong the chia cho 0");
+             case 2:
+                 System.out.println("Hieu cua hai so la: " + (a - b));
+                 break;
+                  case 3:
+                    System.out.println("Tich cua hai so la: " + (a * b));
+                      break;
+                       case 4:
+                        if (b == 0) {
+                          System.out.println("Khong the chia cho 0");
                 } else {
                     System.out.println("Thuong cua 2 so la: " + (a / b));
                 }
