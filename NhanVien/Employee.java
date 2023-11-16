@@ -1,10 +1,9 @@
-//bài 4
 package Employee;
  
 import java.util.Scanner;
  
 public class Employee {
-    private String maNhanVien, hoTen ;
+    private String maNhanVien, hoTen, soDienThoai, mail;
     private int tuoi;
     protected int luong, luongCoBan;
     Scanner scanner = new Scanner(System.in);
@@ -13,11 +12,13 @@ public class Employee {
         super();
     }
  
-    public Employee(String maNhanVien, String hoTen, String mail, int tuoi, 
+    public Employee(String maNhanVien, String hoTen, String soDienThoai, String mail, int tuoi, 
         int luong, int luongCoBan) {
         super();
         this.maNhanVien = maNhanVien;
         this.hoTen = hoTen;
+        this.soDienThoai = soDienThoai;
+        this.mail = mail;
         this.tuoi = tuoi;
         this.luong = luong;
         this.luongCoBan = luongCoBan;
@@ -37,6 +38,10 @@ public class Employee {
  
     public void setHoTen(String hoTen) {
         this.hoTen = hoTen;
+    }
+ 
+    public String getSoDienThoai() {
+        return soDienThoai;
     }
  
     public int getTuoi() {
@@ -68,6 +73,9 @@ public class Employee {
         maNhanVien = scanner.nextLine();
         System.out.print("Nhap ho ten nhan vien: ");
         hoTen = scanner.nextLine();
+        mail = scanner.nextLine();
+        System.out.print("Nhap tuoi: ");
+        tuoi = scanner.nextInt();
         System.out.print("Nhap luong co ban: ");
         luongCoBan = scanner.nextInt();
     }
@@ -78,7 +86,7 @@ public class Employee {
      
     @Override
     public String toString() {
-        return "ma nhan vien: " + this.maNhanVien + ", ho ten nhan vien: " + this.hoTen + 
-            ", tuoi: " + this.tuoi + ", luong co ban: " + this.luongCoBan;
+        return "Ma nhân viên: " + this.maNhanVien + ", họ tên nhân viên: " + this.hoTen + 
+            ", tuổi: " + this.tuoi + ", lương cơ bản: " + this.luongCoBan;
     }
 }
